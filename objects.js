@@ -107,3 +107,28 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same 
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+
+newEmail = [
+  {
+  sender: "Billy Joel",
+  timestamp: "12:34 pm",
+  date: "May 15",
+  subject: "Movin' Out",
+  inbox: "Primary",
+  },
+  {
+  sender: "Billy Joel",
+  timestamp: "12:34 pm",
+  date: "May 15",
+  subject: "Movin' Out",
+  inbox: "Primary",
+  },
+  {
+  sender: "Billy Joel",
+  timestamp: "12:34 pm",
+  date: "May 15",
+  subject: "Movin' Out",
+  inbox: "Primary",
+  },
+]
+console.log(newEmail);
