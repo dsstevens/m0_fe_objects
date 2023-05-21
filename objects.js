@@ -42,14 +42,21 @@ console.log(foods)
 
 // Write code that logs your email object to the terminal.
 
+var newEmail = {
+  sender: "Billy Joel",
+  timestamp: "12:34 pm",
+  date: "May 15",
+  subject: "Movin' Out",
+  inbox: "Primary",
+}
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.keys(newEmail))
 
 // Write code that logs all of the 'values' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.values(newEmail))
 
 
 // -------------------
